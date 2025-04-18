@@ -1,0 +1,94 @@
+/* Reset and basic setup */
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: 'Poppins', 'Segoe UI', sans-serif;
+    background: linear-gradient(to bottom right, cornsilk, #fff8dc, #fefbd8);
+    color: #4b3832;
+    line-height: 1.8;
+}
+
+/* Main content container */
+.container {
+    max-width: 900px;
+    margin: auto;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.07);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: #d4a373;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 2.7em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ffe4b5;
+    padding-bottom: 8px;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+/* Paragraphs */
+p {
+    font-size: 1.15em;
+    margin-bottom: 20px;
+    color: #5c4033;
+}
+
+/* Lists */
+ul {
+    list-style-type: disc;
+    padding-left: 30px;
+    margin-bottom: 25px;
+}
+
+li {
+    margin-bottom: 12px;
+}
+
+/* Emphasis */
+strong {
+    color: #cd853f;
+}
+
+/* Horizontal line */
+hr {
+    border: none;
+    height: 1px;
+    background: #ffe4b5;
+    margin: 50px 0;
+}
+
+/* Links */
+a {
+    color: #b8860b;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #a0522d;
+}
+
+/* Smooth hover effect on container */
+.container:hover {
+    box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.12);
+}
